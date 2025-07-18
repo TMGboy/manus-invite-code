@@ -603,28 +603,35 @@
           </div>
         </div>
         <script type="application/ld+json">
-          {
-            "@context": "https://schema.org",
-            "@type": "Review",
-            "itemReviewed": {
-              "@type": "Service",
-              "name": "Manus AI"
-            },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "4.8",
-              "bestRating": "5",
-              "worstRating": "1"
-            },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.8",
-              "ratingCount": 1243,
-              "bestRating": 5,
-              "worstRating": 1
-            }
-          }
-        </script>
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Manus AI",
+  "applicationCategory": "BusinessApplication",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": 1243,
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "review": {
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "Edward H."
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "reviewBody": "This platform is amazing for automating AI workflows!"
+  }
+}
+</script>
+
         <div class="text-center mt-8">
           <div class="inline-flex items-center bg-white px-6 py-3 rounded-full shadow-sm">
             <div class="flex items-center">
